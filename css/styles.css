@@ -11530,3 +11530,10 @@ html {
   width: 5rem;
   height: 5rem;
 }
+
+.color-me {
+  color: rgb(150, 29, 29)
+}
+.color-yellow {
+  color: rgb(50, 100, 150)
+}
