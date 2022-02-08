@@ -11537,3 +11537,14 @@ html {
 .color-yellow {
   color: rgb(50, 100, 150)
 }
+
+.padding-boy {
+  padding-top: 0.8rem;
+}
+
+.mandlebrot {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  transform: rotate(90deg)
+}
