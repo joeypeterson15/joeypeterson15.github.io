@@ -101,7 +101,7 @@ body {
 .new-font-header {
   font-family: "Nunito";
   font-size: 29px;
-  font-weight: 500;
+  font-weight: 600;
   color:rgba(250, 250, 250, 0.1)
 }
 
@@ -11634,7 +11634,7 @@ html {
 
 .about-me {
   text-align: left;
-  padding-top: 8rem;
+  padding-top: 6rem;
 }
 
 .top-space {
