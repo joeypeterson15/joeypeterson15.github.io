@@ -622,6 +622,13 @@ progress {
   width: 15rem;
   height: auto;
 }
+.img-fluid-img {
+  max-width: 100%;
+  width: 50rem;
+  height: auto;
+}
+
+
 
 .img-thumbnail {
   padding: 0.25rem;
@@ -3052,8 +3059,8 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: #1abc9c;
-  border-color: #1abc9c;
+  background-color: #1f1f1f;
+  /* border-color: #1abc9c; */
 }
 .btn-primary:hover {
   color: #fff;
@@ -11549,7 +11556,7 @@ html {
 }
 @media (min-width: 992px) {
   .portfolio-modal .portfolio-modal-title {
-    font-size: 3rem;
+    font-size: 2rem;
     line-height: 2.5rem;
   }
 }
