@@ -505,6 +505,7 @@ progress {
 }
 
 .lead {
+  font-family: "Nunito";
   font-size: 1.25rem;
   font-weight: 300;
 }
@@ -617,6 +618,7 @@ progress {
 
 .img-fluid {
   max-width: 100%;
+  width: 15rem;
   height: auto;
 }
 
@@ -693,8 +695,8 @@ progress {
 }
 .row > * {
   flex-shrink: 0;
-  width: 100%;
-  max-width: 100%;
+  width: 70%;
+  /* max-width: 100%; */
   padding-right: calc(var(--bs-gutter-x) * 0.5);
   padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-top: var(--bs-gutter-y);
@@ -4073,6 +4075,12 @@ textarea.form-control-lg {
   font-size: 1.25rem;
   text-decoration: none;
   white-space: nowrap;
+}
+.smaller {
+  width: 60vw;
+  /* padding-left: 15rem; */
+  position: relative;
+  margin-left: 13.5rem;
 }
 .navbar-nav {
   display: flex;
@@ -11495,7 +11503,7 @@ html {
   cursor: pointer;
   position: relative;
   display: block;
-  max-width: 25rem;
+  max-width: 15rem;
   border-radius: 0.5rem;
   overflow: hidden;
 }
