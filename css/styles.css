@@ -7840,6 +7840,16 @@ textarea.form-control-lg {
   background-color: rgb(29, 29, 29);
 }
 
+.logo {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+
+.logo-div {
+  padding-left: 4rem;
+}
+
 .bg-secondary {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
