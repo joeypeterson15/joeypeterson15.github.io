@@ -87,7 +87,7 @@
         <section class="page-section portfolio" id="portfolio">
             <div class="container">
                 <!-- Portfolio Section Heading-->
-                <div class="text-center text-uppercase text-secondary new-font-header mb-0">Projects</div>
+                <div class="text-center text-uppercase text-secondary new-font-header mb-0">Featured projects</div>
                 <!-- Icon Divider-->
                 <div class="divider-custom">
                     <div class="divider-custom-custom"></div>
@@ -106,6 +106,7 @@
                                 </div>
                                 <img class="img-fluid" src="assets/img/portfolio/iglogo.jpeg" alt="..." />
                             </div>
+                            <div class="project-title">Outergram</div>
                         </div>
                         <!-- HIPCAMP-->
                         <div class="col-md-6 col-lg-4 mb-5">
@@ -115,6 +116,7 @@
                                 </div>
                                 <img class="img-fluid" src="assets/img/portfolio/hipcamp.png" alt="..." />
                             </div>
+                            <div class="project-title">NapCamp</div>
                         </div>
                         <!-- DISCORD-->
                         <div class="col-md-6 col-lg-4 mb-5">
@@ -124,10 +126,48 @@
                                 </div>
                                 <img class="img-fluid" src="assets/img/portfolio/discord.png" alt="..." />
                             </div>
+                            <div class="project-title">AfterHours</div>
                         </div>
                     </div>
                 </div>
-                <div class="text-center text-uppercase text-secondary new-font-header mb-0 more-padding">Tech</div>
+                <div class="more-pads text-center text-uppercase text-secondary new-font-header mb-0">Other projects</div>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-custom"></div>
+                    <!-- <div class="divider-custom-icon"><i class="fas fa-star"></i></div> -->
+                    <!-- <div class="divider-custom-line"></div> -->
+                </div>
+                <div>
+
+                    <div class="other-projects-container">
+
+                        <div class="other-flex">
+
+                                <img class="img-fluid" src="assets/img/portfolio/visualizer.png" alt="..." />
+
+                                <p class="other-projects-para">I've been trying to wrap my head around some classic algorithms.
+                                    So I made a pathfinding visualizer. So far I've implimented Dijkstra's algorithm with weighted nodes
+                                    or a Breadth First Search if no weighted nodes are added.
+                                </p>
+                                <a class="other-projects-link" href="https://github.com/joeypeterson15/pathfinding-visualizer">
+                                    Github
+                                </a>
+                            </div>
+
+                        <div class="other-flex">
+                                <img class="img-fluid" src="assets/img/portfolio/2d-physics.png" alt="..." />
+                                <p class="other-projects-para">I wanted to figure out how to use some classical physics in my code. This is a game I created
+                                    in canvas where you use your mouse to evade bouncing balls. It was fun figuring out how to
+                                    use animation frames and get the balls to bounce off each other using completely elastic collisions.
+                                </p>
+                                <a class="other-projects-link" href="https://github.com/joeypeterson15/canvas-ball-collisions">
+                                    Github
+                                </a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="more-pads text-center text-uppercase text-secondary new-font-header mb-0 more-padding">Tech</div>
                 <div class="divider-custom">
                     <div class="divider-custom-custom"></div>
                     <!-- <div class="divider-custom-icon"><i class="fas fa-star"></i></div> -->
@@ -151,6 +191,8 @@
                     <a href="wikipedia.com"><img src="assets/img/tech/matlab.png"></img></a>
                     <a href="wikipedia.com"><img src="assets/img/tech/css.png"></img></a>
                 </div>
+
+
             </div>
         </section>
         <!-- About Section-->
@@ -229,7 +271,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-uppercase mb-0">NapCamp - Hipcamp clone</h2>
+                                    <!-- <h2 class="portfolio-modal-title text-uppercase mb-0">NapCamp - Hipcamp clone</h2> -->
                                     <!-- Icon Divider-->
                                     <!-- <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -239,7 +281,7 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid-img rounded mb-5" src="assets/img/tech/napcamp.png" alt="..." />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">NapCamp is a parody clone of the website Hipcamp. Users can explore different Bay Area locations where they can nap.
+                                    <p class="mb-4">NapCamp is a clone of the website Hipcamp. Users can explore different Bay Area locations where they can nap.
                                         User's can book beds, create, edit and delete reviews on each location, as well as view the location of spots through googlemaps.</p>
                                     <a class="btn btn-primary" href="https://napcamp.herokuapp.com/">
                                         <i class="fas fa-times fa-fw"></i>
@@ -266,7 +308,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-uppercase mb-0">AfterHours - Discord clone</h2>
+                                    <!-- <h2 class="portfolio-modal-title text-uppercase mb-0">AfterHours - Discord clone</h2> -->
                                     <!-- Icon Divider-->
                                     <!-- <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -276,7 +318,7 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid-img rounded mb-5" src="assets/img/tech/afterhours.png" alt="..." />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">After Hours is clone of the app Discord. The project was created over a two week period with two other members wherein we enabled live chat functionality
+                                    <p class="mb-4">After Hours is a clone of the app Discord. The project was created over a two week period with two other members wherein we enabled live chat functionality
                                         through flack socket io as they join/ create servers and channels. Users can also search and direct chat other users.
                                     </p>
                                     <a class="btn btn-primary" href="https://afterhoursapp.herokuapp.com/">
@@ -304,7 +346,47 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-uppercase mb-0">Outergram - Instagram clone</h2>
+                                    <!-- <h2 class="portfolio-modal-title text-uppercase mb-0">Outergram - Instagram clone</h2> -->
+                                    <!-- Icon Divider-->
+                                    <!-- <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div> -->
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid-img rounded mb-5" src="assets/img/tech/outergram.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4"> Outergram app is a clone of Instagram.
+                                        The app enables users to post images and connect with others through their posts.
+                                        Users can like and comment on posts as well as follow,
+                                        message and view other users posts.</p>
+                                    <a class="btn btn-primary" href="http://outergram.herokuapp.com/">
+                                        <i class="fas fa-times fa-fw"></i>
+                                        Live link
+                                    </a>
+                                    <a class="btn btn-primary" href="https://github.com/joeypeterson15/ig-clone">
+                                        <i class="fas fa-times fa-fw"></i>
+                                        github code
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <!-- modal4 -->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal4" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-uppercase mb-0">Dijkstra's Pathfinding Visualizer</h2>
                                     <!-- Icon Divider-->
                                     <!-- <div class="divider-custom">
                                         <div class="divider-custom-line"></div>

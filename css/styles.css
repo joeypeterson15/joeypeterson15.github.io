@@ -179,6 +179,42 @@ p {
   margin-bottom: 1rem;
 }
 
+.other-flex {
+  display: flex;
+  padding-left: 5rem;
+  margin-right: 0;
+  padding-top: 1rem;
+}
+
+.other-projects-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5rem;
+}
+.more-pads {
+  padding-top: 3rem;
+}
+
+.project-title {
+  /* background-color: red; */
+  text-align: center;
+  color: white;
+  padding-top: 0.5rem;
+  font-weight: 500;
+}
+
+.other-projects-para {
+  width: 35rem;
+  height: 5vh;
+  color: white;
+  padding-left: 1rem;
+}
+
+.other-projects-link {
+  padding-left: 2rem;
+  padding-top: 1rem;
+}
+
 abbr[title],
 abbr[data-bs-original-title] {
   -webkit-text-decoration: underline dotted;
