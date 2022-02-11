@@ -662,6 +662,13 @@ progress {
   width: 15rem;
   height: auto;
 }
+
+.img-fluid-port {
+  max-width: 100%;
+  width: 22rem;
+  height: auto;
+}
+
 .img-fluid-img {
   max-width: 100%;
   width: 50rem;
@@ -4126,10 +4133,11 @@ textarea.form-control-lg {
   white-space: nowrap;
 }
 .smaller {
-  width: 60vw;
+  /* width: 60vw; */
   /* padding-left: 15rem; */
-  position: relative;
-  margin-left: 13.5rem;
+  /* position: relative; */
+  /* padding-left: 2rem; */
+  display: flex;
 }
 .navbar-nav {
   display: flex;
@@ -11566,7 +11574,7 @@ html {
   cursor: pointer;
   position: relative;
   display: block;
-  max-width: 15rem;
+  max-width: 22rem;
   border-radius: 0.5rem;
   overflow: hidden;
 }
@@ -11627,7 +11635,7 @@ html {
 
 
 .tech {
-  padding-left: 21.5vw;
+  padding-left: 19.7rem;
 }
 
 .tech img {
