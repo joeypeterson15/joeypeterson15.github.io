@@ -11648,3 +11648,20 @@ html {
 .more-padding {
   margin-top: 5rem;
 }
+
+@keyframes hello {
+  0%   {font-size: 0;}
+  /* 25%  {}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;} */
+}
+
+.intro-text {
+  /* width: 100px;
+  height: 100px;
+  position: relative;
+  background-color: red; */
+  animation-name: hello;
+  animation-duration: 2s;
+}
