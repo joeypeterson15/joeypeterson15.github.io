@@ -186,6 +186,18 @@ p {
   padding-top: 1rem;
 }
 
+.heavy {
+  font-weight: 600
+}
+
+.minor-space {
+  padding-top: 0.5rem;
+  /* text-align: left; */
+}
+.bottom-space {
+  padding-bottom: 1.2rem;
+}
+
 .other-projects-container {
   display: flex;
   flex-direction: column;
@@ -293,11 +305,11 @@ sup {
 }
 
 a {
-  color: #1abc9c;
+  color: #43a0fd;
   text-decoration: underline;
 }
 a:hover {
-  color: #15967d;
+  color: #43a0fd;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -3111,12 +3123,12 @@ textarea.form-control-lg {
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #16a085;
+  background-color: #43a0fd;
   border-color: #15967d;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
-  background-color: #16a085;
+  background-color: #43a0fd;
   border-color: #15967d;
   box-shadow: 0 0 0 0.25rem rgba(60, 198, 171, 0.5);
 }
@@ -11621,6 +11633,10 @@ html {
   background-color: #1a252f;
 }
 
+.space-space {
+  padding-top: 1rem;
+}
+
 
 
 .outer-find-me-container {
@@ -11629,7 +11645,7 @@ html {
   position: relative;
   /* background-color: red; */
   width: 30rem;
-  left: 40vw;
+  left: 25.5rem;
   /* top: 100vh; */
 }
 
@@ -11668,8 +11684,8 @@ html {
   flex-direction: row;
   justify-content: space-around;
   /* background-color: red; */
-  width: 65vw;
-  margin-left: 15rem;
+  width: 80vw;
+  padding-left: 19rem;
 }
 
 .font-me {
